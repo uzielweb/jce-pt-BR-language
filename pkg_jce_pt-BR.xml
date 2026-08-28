@@ -1,48 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<extension type="file" version="2.5" method="upgrade">
-	<name>JCE - Português (Brazil)</name>
-	<version>2.9.75</version>
-	<creationDate>2024-03-25</creationDate>
+<extension type="file" version="3.10" method="upgrade">
+	<name>JCE - Português (Brasil)</name>
+	<version>2.9.99.10</version>
+	<creationDate>2026-08-28</creationDate>
 	<author>Uziel Almeida Oliveira</author>
 	<authorEmail>info@joomlacontenteditor.net</authorEmail>
-	<authorUrl>https://crowdin.com/project/jceeditor</authorUrl>
-	<copyright>© © Copyright (C) 2006 - 2023 Widget Factory Limited. Todos os direitos reservados</copyright>
-	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-	<url>https://crowdin.com/project/jceeditor</url>
-	<description>Pacote de idioma Português (Brasil) para JCE 2.x</description>
+	<authorUrl>https://github.com/uzielweb/jce-pt-BR-language</authorUrl>
+	<copyright>Copyright (C) 2006 - 2026 Ryan Demmer / Widget Factory Limited. Todos os direitos reservados.</copyright>
+	<license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<url>https://github.com/uzielweb/jce-pt-BR-language</url>
+	<description>Pacote de idioma Português do Brasil (pt-BR) 100% completo e atualizado para o JCE Editor (Joomla 3.x, 4.x, 5.x e 6.x).</description>
 	<fileset>
 		<files folder="administrator/language/pt-BR" target="administrator/language/pt-BR">
-			<file>pt-BR.plg_system_jce.sys.ini</file>
-			<file>pt-BR.plg_system_jce.ini</file>
-			<file>pt-BR.plg_quickicon_jce.sys.ini</file>
-			<file>pt-BR.plg_quickicon_jce.ini</file>
-			<file>pt-BR.plg_installer_jce.sys.ini</file>
-			<file>pt-BR.plg_installer_jce.ini</file>
-			<file>pt-BR.plg_extension_jce.sys.ini</file>
-			<file>pt-BR.plg_extension_jce.ini</file>
-			<file>pt-BR.plg_content_jce.sys.ini</file>
-			<file>pt-BR.plg_content_jce.ini</file>
-			<file>pt-BR.pkg_jce.sys.ini</file>
-			<file>pt-BR.pkg_jce_pro.sys.ini</file>
-			<file>pt-BR.com_jce.sys.ini</file>
-			<file>pt-BR.com_jce.menu.ini</file>
 			<file>pt-BR.com_jce.ini</file>
-			<file>pt-BR.com_jce_pro.sys.ini</file>
+			<file>pt-BR.com_jce.sys.ini</file>
+			<file>pt-BR.plg_content_jce.ini</file>
+			<file>pt-BR.plg_content_jce.sys.ini</file>
 			<file>pt-BR.plg_editors_jce.ini</file>
 			<file>pt-BR.plg_editors_jce.sys.ini</file>
+			<file>pt-BR.plg_extension_jce.ini</file>
+			<file>pt-BR.plg_extension_jce.sys.ini</file>
 			<file>pt-BR.plg_fields_mediajce.ini</file>
 			<file>pt-BR.plg_fields_mediajce.sys.ini</file>
-			<file>pt-BR.plg_system_jcemediabox.ini</file>
-			<file>pt-BR.plg_system_jcemediabox.sys.ini</file>
+			<file>pt-BR.plg_installer_jce.ini</file>
+			<file>pt-BR.plg_installer_jce.sys.ini</file>
+			<file>pt-BR.plg_quickicon_jce.ini</file>
+			<file>pt-BR.plg_quickicon_jce.sys.ini</file>
+			<file>pt-BR.plg_system_jce.ini</file>
+			<file>pt-BR.plg_system_jce.sys.ini</file>
 		</files>
 		<files folder="language/pt-BR" target="language/pt-BR">
 			<file>pt-BR.com_jce.ini</file>
-			<file>pt-BR.com_jce_pro.ini</file>
+			<file>pt-BR.pkg_jce.sys.ini</file>
+		</files>
+		<files folder="api/language/pt-BR" target="api/language/pt-BR">
+			<file>pt-BR.com_jce.ini</file>
+			<file>pt-BR.com_jce.sys.ini</file>
 		</files>
   	</fileset>
-  	<updateservers>
-        <server type="extension" priority="1" name="JCE Language Pack">
-            <![CDATA[https://cdn.joomlacontenteditor.net/updates/xml/languages/editor/pkg_jce_pt-BR.xml]]>
-        </server>
-    </updateservers>
 </extension>
